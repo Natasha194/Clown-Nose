@@ -1,0 +1,16 @@
+canvas {
+    border: 2px dashed;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 3px 3px 29px red;
+    }
+    to {
+        box-shadow: 3px 3px 29px orange;    
+}
+}
