@@ -1,6 +1,6 @@
 canvas {
     border: 2px dashed;
-    margin-top: 50px;
+    margin-top: 100px;
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -13,4 +13,8 @@ canvas {
     to {
         box-shadow: 3px 3px 29px orange;    
 }
+}
+
+#snapshot {
+    margin-top: 350px;
 }
